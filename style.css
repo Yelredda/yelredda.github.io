@@ -8,14 +8,18 @@ body {
 	background-color: #004E64;
 }
 .header-container {
+	position: sticky; 
+	top: 0;
+	z-index: 1000;
+	
 	background-size: cover;
 	background-position: center center;
 	color: #E7E7E7;
-	padding-bottom: 10vw;
+	padding-bottom: 0vw;
 	background-image: linear-gradient(0deg, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.85) 100%), url(images/background.jpg);
 	text-align: center;
 }
-.header-container .site-header {
+.header-container .site-header {	
 	padding: 20px 0;
 	margin: 0 auto;
 	max-width: 1200px;

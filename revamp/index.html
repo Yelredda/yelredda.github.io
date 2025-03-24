@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theo Adderley</title>
+    <link rel="stylesheet" href="style.css">
+	<meta name="robots" content="noindex, nofollow" />
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+	<!-- Hero Section -->
+	<section id="home" class="hero">
+		<div class="hero-content">
+			<div class="image-content">
+				<img src="./MyAvatar.png" alt="Theo's photo" class="hero-image">
+			</div>
+			<div class="text-content">
+				<h1>Hi, I'm Theo!</h1>
+				<p>Maker of things | Occasional Problem Solver</p>
+				<a href="#projects" class="cta-btn">View My Projects</a>
+			</div>			
+		</div>
+	</section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I’m an aspiring software developer with experience in Python, C++, and C#. I’m dabbling in AI/ML development but wouldn’t call myself an expert (yet!). I recently graduated with a bachelor’s degree in computer science and am currently working on a Master’s. <br><br>
+			I’ve been obsessed with computers for as long as I can remember but I’ve officially been in the IT field (starting out as a System Administrator back in the long ago) for about 15 years. I’m still putting out fires, but now I do it for Microsoft. <br><br>
+			In my spare time I enjoy reading, gaming, gardening, Wing Chun, and spending time with my belligerent and numerous family. </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>WGU C867: Scripting and Programming - Applications (C++)</h3>
+                    <p>Final project for class, creating a student class scheduling application. The majority of the work is implemented in three separate classes. degree.h is a header file defining a DegreeProgram enum type. roster.h and its implementation in roster.cpp define functions for adding and removing students from a class, printing all registered students, calculating the student average number of days in their courses, validating email addresses, and printing students by degree program. student.h and student.cpp define the student class as well as a customised print() function. </p>
+                    <a href="https://github.com/Yelredda/WGU-C867">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>WGU C950: Data Structures and Algorithms II (Python)</h3>
+                    <p>Final project for class, creating a package assignment algorithm for a pseudo-truck delivery company. The package details (e.g. ID, destination, weight, deadline) are stored in instances of the Package class defined in Packages.py. The truck details (assigned packages, total miles, etc.) are stored in instances of the Truck class defined in Truck.py. The majority of the program logic is in main.py. The main program begins by importing the package and address information (used to calculate distances) from source csv files. From there, it loads the packages into the truck using specific criteria (e.g. packages with no deadline go to the truck that is leaving later, or certain packages have to be delivered as a group) coupled with a rudimentary algorithm that decides the truck's next package delivery based on which available packages are closest to its current simulated location. </p>
+                    <a href="https://github.com/Yelredda/WGU-C950">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>GT CS6035: Information to Information Security - Cryptography (Python)</h3>
+                    <p>Proof-of-concept simulations of basic ciphers and their corresponding attack vectors. Also provides an implementation of the Extended Euclidean Algorithm as a helper function for greatest common denominator calculations. Includes methods for encrypting and decrypting Vigenere ciphers, brute-force (dictionary) attacking a Vigenere cipher, encrypting and decrypting basic RSA ciphers, and attacking RSA ciphers via both Weak Key and Coppersmith/Broadcast attacks.</p>
+                    <a href="https://github.com/Yelredda/GAT-6035/blob/main/cryptography.py">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>GT CS6035: Information to Information Security - Machine Learning (Python, additional libraries: numpy, pandas, sklearn)</h3>
+                    <p>The project has multiple tasks. The first task is basic dataframe manipulation, including sorting, dropping NA rows, and inserting new columns. The second task illustrates data preprocessing using One Hot Encoding, Min/Max Scaling, and Principal Component Analysis (PCA). The third task uses an unsupervised K-means model to fit and train test data. The fourth task creates supervised models using Logistic Regression, Random Forest, and Gradient Boosting.</p>
+                    <a href="https://github.com/Yelredda/GAT-6035/blob/main/ml_task1.py">View on GitHub</a>
+                </div>				
+                <div class="project-item">
+                    <h3>GT CS6035: Information to Information Security - Network Capture Analysis (Python, additional libraries: pyshark)</h3>
+                    <p>This project is a basic implementation of some of the functionalities provided by the pyshark library for pcap network capture analysis. It reads a network capture (*.pcap) and has functions to return the total number of ICMP packets, the number for ICMP responses, and the most common destination MAC address seen in the capture.</p>
+                    <a href="https://github.com/Yelredda/GAT-6035/blob/main/pcap_analysis.py">View on GitHub</a>
+                </div>
+				<!-- Base template for later use 
+                <div class="project-item">
+                    <h3>Project Two</h3>
+                    <p>Description of your project.</p>
+                    <a href="#">View on GitHub</a>
+                </div>
+				-->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-content">
+            <h2>But wait, there's more! </h2>
+            <p>Here are a few additional ways to contact me:</p>
+            <a href="mailto:theo.adderley@yahoo.com" class="cta-btn">Email me</a>
+			<a href="https://www.linkedin.com/in/theo-adderley" class="cta-btn">View my Linkedin profile</a>
+			<a href="https://github.com/Yelredda" class="cta-btn">View additional projects on my GitHub</a>
+			
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Theo Adderley </p>
+    </footer>
+
+</body>
+</html>

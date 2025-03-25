@@ -1,217 +1,111 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Theo Adderley</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theo Adderley</title>
+    <link rel="stylesheet" href="style.css">
 	<meta name="robots" content="noindex, nofollow" />
 </head>
 <body>
-	<div class="header-container">
-		<header class="site-header">
-			<h1>Theo Adderley</h1>
-			<nav class="main-navigation">
-				<ul>
-					<li><a href="https://github.com/Yelredda" target="#">View my GitHub</a></li>
-					<li><a href="https://www.linkedin.com/in/theo-adderley" target="#">Linkedin Profile</a></li>
-					<li><a href="mailto:theo.adderley@yahoo.com" target="#">Send an Email</a></li>
-				</ul>
-			</nav>
-		</header>
-	<!--
-	  <div class="page-title">
-		  <h2 class="entry-title">Who is Theo?</h2>
-	  </div>
-	-->
-	</div>
-	<main class="main">
-		<div class="page-content">
-			  <div class="resume">
-			  
-				<h1> Summary </h1>
-				<div> Experienced IT professional with a strong background in system administration and automation, transitioning into software development. Proficient in Python, C#, and C++ with hands-on experience in AI/ML development. 
-				Seeking a developer position to leverage my technical skills in coding, AI/ML, and problem-solving, while further expanding my knowledge in software engineering. </div>
 
-				<br>
-				
-				<h1>Education</h1>
-				<div>
-					<h3 style="display: inline;"> Georgia Institute of Technology </h3>
-					<span style="font-size: 0.8em;"><strong>(Current, expected graduation Fall 2026)</strong></span>
-					<ul>
-						<li><strong>Master of Science: Computer Science </strong>
-							<ul> Coursework:
-								<li>Introduction to Information Security</li>
-								<li>Video Game Design</li>
-								<li>Seminar: NVIDIA Fundamentals of Deep Learning Workshop</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h3 style="display: inline;"> Western Governors University </h3>
-					<span style="font-size: 0.8em;"><strong>(Graduated 2023)</strong></span>
-					<ul>
-						<li><strong>Bachelor of Science: Computer Science </strong> 
-							<ul> Coursework:
-								<li>Computer Architecture</li>
-								<li>Introduction to Artificial Intelligence</li>
-								<li>Data Structures and Algorithms I/II</li>
-								<li>Introduction to Artificial Intelligence</li>							
-								<li>Advanced Java</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h3 style="display: inline;"> Florida State University </h3>
-					<span style="font-size: 0.8em;"><strong>(Graduated 2010)</strong></span>
-					<ul>
-						<li><strong>Bachelor of Science:</strong> Chemistry, minor in Biology</li>
-						<li><strong>Bachelor of Arts:</strong> Philosophy, minor in Japanese</li>
-					</ul>
-				</div>				
-				<br>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-				<h1>Skills</h1>
-				<ul>
-					<li><strong>Programming languages:</strong> Python, C++, C#</li>
-					<li><strong>Scripting languages:</strong> BASH, PowerShell</li>					
-					<li><strong>Development Tools:</strong> Git, Docker, Visual Studio, gdb debugger</li>	
-					<li><strong>AI/ML Tools and Libraries:</strong> PyTorch, Scikit-Learn</li>						
-					<li><strong>Operating Systems:</strong> Windows, Linux (Ubuntu, RedHat)</li>
-					<li><strong>Databases:</strong> SQL Server</li>
-					<li><strong>Networking:</strong> DHCP, DNS, WireShark network trace analysis</li>
-				</ul>
-				<br>
-				
-				<h1>Projects - Past and Present </h1>
-				<h2 style="display: inline;"> Current </h2>
-				<ul>
-					<li> <strong>Image-based Speech App</strong>
-						<div>
-						Currently in the planning stages for an app that translates images to spoken text for nonverbal individuals.						
-						</div>
-					</li>
-					<li> <strong>Untitled Dungeon Crawler (Unity, C#)</strong>
-						<div>
-						Group project created as a final deliverable for Georgia Tech's CS6457 Video Game Design course. Primary developer, responsible for creating:
-						<ul>
-							<li> User Interface, to include inventory, current health/mana, and damage  </li>							
-							<li> Health (including death) and magic systems for both the protagonist and the enemies </li>
-							<li> Inventory system, including prefab creation, instantiation, and item effects </li>							
-							<li> Magic and melee attacks, including the animations and collision detection system. </li>
-						</ul>
-						</div>
-					</li>
-				</ul>
-				<h2 style="display: inline;"> Completed </h2>
-				<ul> 
-					<li> <strong>WGU C867: Scripting and Programming - Applications (C++) </strong>
-						<div>
-						Final project for class, creating a student class scheduling application. The majority of the work is implemented in three separate classes. degree.h is a header file defining a DegreeProgram enum type. roster.h and its implementation in roster.cpp define functions for adding and removing students from a class, printing all registered students, calculating the student average number of days in their courses, validating email addresses, and printing students by degree program. student.h and student.cpp define the student class as well as a customised print() function.  
-						</div>
-					</li>
-					<li> <strong>WGU C950: Data Structures and Algorithms II (Python) </strong>
-						<div>
-						Final project for class, creating a package assignment algorithm for a pseudo-truck delivery company. The package details (e.g. ID, destination, weight, deadline) are stored in instances of the Package class defined in Packages.py. The truck details (assigned packages, total miles, etc.) are stored in instances of the Truck class defined in Truck.py. The majority of the program logic is in main.py. The main program begins by importing the package and address information (used to calculate distances) from source csv files. From there, it loads the packages into the truck using specific criteria (e.g. packages with no deadline go to the truck that is leaving later, or certain packages have to be delivered as a group) coupled with a rudimentary algorithm that decides the truck's next package delivery based on which available packages are closest to its current simulated location. 
-						</div>
-					</li>
-					<li> <strong>GT CS6035: Information to Information Security - Cryptography (Python) </strong>
-						<div>
-						Proof-of-concept simulations of basic ciphers and their corresponding attack vectors. Also provides an implementation of the Extended Euclidean Algorithm as a helper function for greatest common denominator calculations. Includes methods for encrypting and decrypting Vigenere ciphers, brute-force (dictionary) attacking a Vigenere cipher, encrypting and decrypting basic RSA ciphers, and attacking RSA ciphers via both Weak Key and Coppersmith/Broadcast attacks.  
-						</div>
-					</li>
-					<li> <strong>GT CS6035: Information to Information Security - Machine Learning (Python, additional libraries: numpy, pandas, sklearn) </strong>
-						<div>
-						The project has multiple tasks. The first task is basic dataframe manipulation, including sorting, dropping NA rows, and inserting new columns. The second task illustrates data preprocessing using One Hot Encoding, Min/Max Scaling, and Principal Component Analysis (PCA). The third task uses an unsupervised K-means model to fit and train test data. The fourth task creates supervised models using Logistic Regression, Random Forest, and Gradient Boosting.  
-						</div>
-					</li>
-					<li> <strong>GT CS6035: Information to Information Security - Network Capture Analysis (Python, additional libraries: pyshark) </strong>
-						<div>
-						This project is a basic implementation of some of the functionalities provided by the pyshark library for pcap network capture analysis. It reads a network capture (*.pcap) and has functions to return the total number of ICMP packets, the number for ICMP responses, and the most common destination MAC address seen in the capture.   
-						</div>
-					</li>
-					<li> <strong>Server Performance Logger (Python, additional libraries: pyodbc, wmi) </strong>
-						<div>
-						This program was created as a simple substitute for more sophisticated monitoring software like Solarwinds. The Python program was installed as a local scheduled task on servers and would run every 10 minutes. It took advantage of the Win32_PerfRawData class to gather performance data on a per-process basis. Each server then wrote its collected data to a SQL Server database for later retrieval and analysis. It was eventually used to track down an issue where certain servers would experience degraded performance due to resource contention, and the data isolated the issue to a memory leak caused by an in-house developed application.    
-						</div>
-					</li>					
-				</ul>
-				
-				<br>				
-
-				<h1>Work Experience</h1>
-
-				<div>
-					<h2 style="display: inline;"> Microsoft </h2>
-					<span style="font-size: 0.8em;"><strong>(February 2020 - Present)</strong></span><br>
-					<strong>Senior Technical Support Escalation Engineer – Modern Workplace</strong>
-					<ul>
-						<li>Current areas of support are Microsoft Endpoint Configuration Manager (MECM/SCCM), Windows Server Update Services (WSUS), and all related technologies.</li>
-						<li>Previous experience in Directory Services, supporting Active Directory, Group Policy, Kerberos, and Authentication.</li>
-						<li>On-call rotation for organizations requiring 24/7 US-based support.</li>
-						<li>FY24 Q2 CSS Customer Obsessed Award Winner </li>
-					</ul>
-				</div>
-				<div>
-					<h2 style="display: inline;"> Amazon.com </h2>
-					<span style="font-size: 0.8em;"><strong>(November 2019 - February 2020)</strong></span><br>
-					<strong>IT Support Engineer</strong>
-					<ul>
-						<li>Supported ~1,000 end users, including printers, laptops, thin clients, and backing servers.</li>
-					</ul>
-				</div>
-				<div>
-					<h2 style="display: inline;"> D.R. Horton </h2>
-					<span style="font-size: 0.8em;"><strong>(June 2018 - November 2019)</strong></span><br>
-					<strong>Senior Enterprise Server Engineer</strong>
-					<ul>
-						<li>Maintained a PowerShell script that queried Active Directory and the WhatsUpGold database to identify servers missing from the monitoring platform, sending daily notifications of missing servers.</li>					
-						<li>Managed 3,000+ Windows servers in Hyper-V and VMware 6.5 environment.</li>
-						<li>Primary SCCM administrator; increased monthly patching compliance from 80% to 95%.</li>
-						<li>Migrated 80+ local division file servers to DFS namespaces, preventing outages during hurricanes.</li>
-						<li>Set up local network/server infrastructure for recent company acquisitions.</li>
-					</ul>
-				</div>
-				<div>
-					<h2 style="display: inline;"> Colorado Springs Utilities </h2>
-					<span style="font-size: 0.8em;"><strong>(October 2011 - June 2018)</strong></span><br>
-					<strong>Senior Enterprise Server Administrator</strong>
-					<ul>
-						<li>Developed PowerShell scripts for user provisioning, completely automating the new user creation workflow. </li>
-						<li>Developed Python script for rudimentary server performance monitoring used to track down a memory leak in an in-house developed application.</li>
-						<li>Administered 600+ Windows/Linux servers in a VMware 6.0 environment, 2,000 workstations, and 800 mobile devices.</li>
-						<li>Assisted LAN/WAN team in Cisco networking equipment deployments and troubleshooting.</li>
-						<li>Active Directory administrator, redesigned OU structure and implemented Industry-standard RBAC.</li>
-						<li>Completed the Colorado Springs Utilities Emerging Leader management training program.</li>
-					</ul>
-				</div>
-				<br>
-				
-				<h1>Certifications - Past and Current</h1>
-				<ul>
-					<li><strong>NVIDIA Deep Learning Institute</strong> - Workshop: Fundamentals of Deep Learning</li>
-					<li><strong>NVIDIA Deep Learning Institute</strong> - Workshop: Building RAG Agents with LLMs</li>
-					<li><strong>NVIDIA Deep Learning Institute</strong> - Workshop: Applications of AI for Anomaly Detection</li>					
-					<li><strong>Microsoft</strong> - Microsoft Certified: Security, Compliance, and Identity Fundamentals</li>					
-					<li><strong>Microsoft</strong> - MCSA: Windows Server 2012, Windows 10, SQL Server 2012/2014</li>
-					<li><strong>Microsoft</strong> - MCSE: Cloud Platform and Infrastructure, Mobility</li>
-					<li><strong>Red Hat</strong> - Red Hat Enterprise Linux 7 Certified System Administrator (RHCSA)</li>
-					<li><strong>VMWare</strong> - VMware Certified Professional (VCP) 6 – Datacenter Virtualization</li>
-					<li><strong>ITIL</strong> - ITIL Foundation Certification: IT Service Management</li>
-					<li><strong>Amazon</strong> - Amazon Web Services (AWS) Certified Solutions Architect – Associate</li>
-					<li><strong>Cisco</strong> - CCNA Cybersecurity Operations, CCNA Routing/Switching</li>
-				</ul>
-				<br>
-				
+	<!-- Hero Section -->
+	<section id="home" class="hero">
+		<div class="hero-content">
+			<div class="image-content">
+				<img src="./MyAvatar.png" alt="Theo's photo" class="hero-image">
 			</div>
+			<div class="text-content">
+				<h1>Hi, I'm Theo!</h1>
+				<p>Maker of things | Occasional Problem Solver</p>
+				<a href="#projects" class="cta-btn">View My Projects</a>
+			</div>			
 		</div>
-	</main>
-	<footer class="site-footer">
-	  	<div class="footer-credits">
-			<p>Copyright © 2024 · Theo Adderley</p>
-		</div>
-	</footer>
+	</section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I’m an aspiring software developer with experience in Python, C++, and C#. I’m dabbling in AI/ML development but wouldn’t call myself an expert (yet!). I recently graduated with a bachelor’s degree in computer science and am currently working on a Master’s. <br><br>
+			I’ve been obsessed with computers for as long as I can remember but I’ve officially been in the IT field (starting out as a System Administrator back in the long ago) for about 15 years. I’m still putting out fires, but now I do it for Microsoft. <br><br>
+			In my spare time I enjoy reading, gaming, gardening, Wing Chun, and spending time with my belligerent and numerous family. </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>WGU C867: Scripting and Programming - Applications (C++)</h3>
+                    <p>Final project for class, creating a student class scheduling application. The majority of the work is implemented in three separate classes. degree.h is a header file defining a DegreeProgram enum type. roster.h and its implementation in roster.cpp define functions for adding and removing students from a class, printing all registered students, calculating the student average number of days in their courses, validating email addresses, and printing students by degree program. student.h and student.cpp define the student class as well as a customised print() function. </p>
+                    <a href="https://github.com/Yelredda/WGU-C867">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>WGU C950: Data Structures and Algorithms II (Python)</h3>
+                    <p>Final project for class, creating a package assignment algorithm for a pseudo-truck delivery company. The package details (e.g. ID, destination, weight, deadline) are stored in instances of the Package class defined in Packages.py. The truck details (assigned packages, total miles, etc.) are stored in instances of the Truck class defined in Truck.py. The majority of the program logic is in main.py. The main program begins by importing the package and address information (used to calculate distances) from source csv files. From there, it loads the packages into the truck using specific criteria (e.g. packages with no deadline go to the truck that is leaving later, or certain packages have to be delivered as a group) coupled with a rudimentary algorithm that decides the truck's next package delivery based on which available packages are closest to its current simulated location. </p>
+                    <a href="https://github.com/Yelredda/WGU-C950">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>GT CS6035: Information to Information Security - Cryptography (Python)</h3>
+                    <p>Proof-of-concept simulations of basic ciphers and their corresponding attack vectors. Also provides an implementation of the Extended Euclidean Algorithm as a helper function for greatest common denominator calculations. Includes methods for encrypting and decrypting Vigenere ciphers, brute-force (dictionary) attacking a Vigenere cipher, encrypting and decrypting basic RSA ciphers, and attacking RSA ciphers via both Weak Key and Coppersmith/Broadcast attacks.</p>
+                    <a href="https://github.com/Yelredda/GAT-6035/blob/main/cryptography.py">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>GT CS6035: Information to Information Security - Machine Learning (Python, additional libraries: numpy, pandas, sklearn)</h3>
+                    <p>The project has multiple tasks. The first task is basic dataframe manipulation, including sorting, dropping NA rows, and inserting new columns. The second task illustrates data preprocessing using One Hot Encoding, Min/Max Scaling, and Principal Component Analysis (PCA). The third task uses an unsupervised K-means model to fit and train test data. The fourth task creates supervised models using Logistic Regression, Random Forest, and Gradient Boosting.</p>
+                    <a href="https://github.com/Yelredda/GAT-6035/blob/main/ml_task1.py">View on GitHub</a>
+                </div>				
+                <div class="project-item">
+                    <h3>GT CS6035: Information to Information Security - Network Capture Analysis (Python, additional libraries: pyshark)</h3>
+                    <p>This project is a basic implementation of some of the functionalities provided by the pyshark library for pcap network capture analysis. It reads a network capture (*.pcap) and has functions to return the total number of ICMP packets, the number for ICMP responses, and the most common destination MAC address seen in the capture.</p>
+                    <a href="https://github.com/Yelredda/GAT-6035/blob/main/pcap_analysis.py">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <h3>GT CS6457: Video Game Design - Untitled Dungeon Crawler (Unity, C#)</h3>
+                    <p>This is the final deliverable for the class. I worked on it as part of a group of five. I was responsible for creating the base demo and then pivoted to being the primary developer tasked with creating: the UI (including inventory), the player/enemy health/mana system, the player/enemy damage system and interface, magic and melee attacks (including the collision detection logic), environmental hazards, and item (e.g. health potions and upgrades) prefabs.</p>
+                    <a>Unavailable on GitHub at the moment!</a>
+                </div>
+				<!-- Base template for later use 
+                <div class="project-item">
+                    <h3>Project Two</h3>
+                    <p>Description of your project.</p>
+                    <a href="#">View on GitHub</a>
+                </div>
+				-->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-content">
+            <h2>But wait, there's more! </h2>
+            <p>Here are a few additional ways to learn more about me:</p>
+            <a href="mailto:theo.adderley@yahoo.com" class="cta-btn">Email me</a>
+			<a href="https://www.linkedin.com/in/theo-adderley" class="cta-btn">View my Linkedin profile</a>
+			<a href="https://github.com/Yelredda" class="cta-btn">View additional projects on my GitHub</a>
+			
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Theo Adderley </p>
+    </footer>
+
 </body>
 </html>
